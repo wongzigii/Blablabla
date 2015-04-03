@@ -20,8 +20,8 @@
 @property (nonatomic, strong) XMPPMessageArchiving *xmppMessageArchiving;
 @property (nonatomic, strong) XMPPMessageArchivingCoreDataStorage *xmppMessageArchivingCoreDataStorage;
 @property (nonatomic, strong) XMPPCoreDataStorage *xmppCoreDataStorage;
-+ (instancetype)sharedInstance;
 
++ (instancetype)sharedInstance;
 - (void)loginWithJID:(XMPPJID *)jid    andPassword:(NSString *)pwd;
 - (void)registerWithJID:(XMPPJID *)jid andPassword:(NSString *)string;
 

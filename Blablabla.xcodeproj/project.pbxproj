@@ -550,7 +550,6 @@
 				E0EF77751ABF7E2100DFC980 /* UITool.m */,
 				E0E94ED71ABD38EB00F286C2 /* BLXMPPTool.h */,
 				E0E94ED81ABD38EB00F286C2 /* BLXMPPTool.m */,
-				E0E94EDA1ABD3B4200F286C2 /* Constant.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -579,6 +578,7 @@
 				E0E94A031ABCECCB00F286C2 /* XMPPFramework */,
 				E0E949E11ABCECAF00F286C2 /* AppDelegate.h */,
 				E0E949E21ABCECAF00F286C2 /* AppDelegate.m */,
+				E0E94EDA1ABD3B4200F286C2 /* Constant.h */,
 				E0E43AD71AC4367300FBDC89 /* ViewControllers */,
 				E0E43AD91AC436AA00FBDC89 /* Model */,
 				E0E43AD81AC4368D00FBDC89 /* View */,
@@ -1870,6 +1870,7 @@
 					/usr/include/libxml2,
 				);
 				INFOPLIST_FILE = Blablabla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1889,6 +1890,7 @@
 					/usr/include/libxml2,
 				);
 				INFOPLIST_FILE = Blablabla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

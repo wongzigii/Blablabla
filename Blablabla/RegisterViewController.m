@@ -28,6 +28,7 @@
     self.usernameTextField.layer.borderWidth = 2.0f;
     self.usernameTextField.layer.borderColor = (__bridge CGColorRef)([UIColor lightGrayColor]);
     self.usernameTextField.borderStyle = UITextBorderStyleRoundedRect;
+    
     self.passwordTextField.borderStyle = UITextBorderStyleRoundedRect;
     self.confirmTextField.borderStyle = UITextBorderStyleRoundedRect;
     self.registerButton.backgroundColor = [UIColor colorWithRed:78.0 / 255.0 green:204.0 / 255.0 blue:33.0 / 255.0 alpha:1.0];
